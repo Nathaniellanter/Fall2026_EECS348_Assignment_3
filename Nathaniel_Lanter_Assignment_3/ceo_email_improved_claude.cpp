@@ -15,6 +15,7 @@
  * Revisions:    Added sender enum, arrival-order tie-break, input validation,
  *               comparator consolidation, move semantics, reserve(), '\n' output,
  *               parseEmail() separation, stdin fallback.
+ * instructions: runs with arguments in the terminal 
  */
 #include <cstdio>     // snprintf for formatting dates
 #include <fstream>    // std::ifstream for reading the test file
